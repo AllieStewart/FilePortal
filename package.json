@@ -1,0 +1,35 @@
+{
+  "name": "fileportal",
+  "version": "1.0.0",
+  "description": "PWA software to transfer files between devices/sites as a portal.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllieStewart/FilePortal.git"
+  },
+  "keywords": [
+    "fileportal",
+    "file",
+    "portal",
+    "allie",
+    "stewart",
+    "pwa"
+  ],
+  "author": "Allie Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllieStewart/FilePortal/issues"
+  },
+  "homepage": "https://github.com/AllieStewart/FilePortal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
